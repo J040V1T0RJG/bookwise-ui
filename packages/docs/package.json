@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@j040v1t0r-bookwise-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@j040v1t0r-bookwise-ui/eslint-config": "*",
     "@j040v1t0r-bookwise-ui/react": "*",
