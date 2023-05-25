@@ -1,0 +1,37 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@j040v1t0r-bookwise-ui/eslint-config": "*",
+    "@j040v1t0r-bookwise-ui/react": "*",
+    "@j040v1t0r-bookwise-ui/tokens": "*",
+    "@j040v1t0r-bookwise-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^6.5.12",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.17",
+    "@storybook/addon-interactions": "^7.0.17",
+    "@storybook/addon-links": "^7.0.17",
+    "@storybook/blocks": "^7.0.17",
+    "@storybook/builder-vite": "^7.0.17",
+    "@storybook/react": "^7.0.17",
+    "@storybook/react-vite": "^7.0.17",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.17"
+  }
+}
