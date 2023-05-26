@@ -1,0 +1,4 @@
+{
+  "extends": "@j040v1t0r-bookwise-ui/ts-config/react.json",
+  "include": ["src"]
+}

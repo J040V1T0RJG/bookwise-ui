@@ -1,5 +1,9 @@
-/** @type { import('@storybook/react-vite').StorybookConfig } */
-const config = {
+// /** @type { import('@storybook/react-vite').StorybookConfig } */
+
+import type { StorybookConfig } from '@storybook/react-vite';
+
+
+const config: StorybookConfig = {
   stories: [
     "../src/pages/**/*.stories.mdx",
     "../src/stories/**/*.stories.tsx"
@@ -24,4 +28,5 @@ const config = {
     return config
   }
 };
+
 export default config;

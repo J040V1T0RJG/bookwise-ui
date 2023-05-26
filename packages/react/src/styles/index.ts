@@ -1,4 +1,13 @@
-import { createStitches } from '@stitches/react'
+import { createStitches, defaultThemeMap } from '@stitches/react'
+import {
+  colors,
+  fontSizes,
+  fontWeights,
+  fonts,
+  lineHeights,
+  radii,
+  space,
+} from '@j040v1t0r-bookwise-ui/tokens'
 
 export const {
   styled,
@@ -9,4 +18,20 @@ export const {
   theme,
   createTheme,
   config,
-} = createStitches({})
+} = createStitches({
+  themeMap: {
+    ...defaultThemeMap,
+    height: 'space',
+    width: 'space',
+  },
+
+  theme: {
+    colors,
+    fontSizes,
+    fontWeights,
+    fonts,
+    lineHeights,
+    radii,
+    space,
+  },
+})
