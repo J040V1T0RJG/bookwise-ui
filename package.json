@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
-    "@storybook/builder-vite": "^7.0.17",
-    "turbo": "^1.9.4"
+    "@storybook/builder-vite": "^7.0.23",
+    "turbo": "^1.10.6"
   }
 }
